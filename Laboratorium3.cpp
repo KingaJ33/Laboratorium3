@@ -2,10 +2,199 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //ZAD.1
+/*
+    int a, b;
+
+    cout << "podaj wartosc a: ";
+    cin >> a;
+    cout << endl;
+    cout << "podaj wartosc b: ";
+    cin >> b;
+    cout << endl;
+
+    if (a == b) {
+        cout << "wartosci a i b sa rowne" << endl;
+    }
+    else if (a < b ) {
+        cout << "wartosc a jest mniejsza" << endl;
+
+    }
+    else {
+        cout << "wartosc b jest mniejsza" << endl;
+    }
+*/
+    //ZAD.2
+/*
+    int a, b;
+
+    cout << "podaj wartosc a: ";
+    cin >> a;
+    cout << endl;
+    cout << "podaj wartosc b: ";
+    cin >> b;
+    cout << endl;
+
+    if(a == b) {
+        cout << "wartosci a i b sa rowne" << endl;
+    }
+    else {
+        if (a < b) {
+            cout << "wartosc a jest mniejsza" << endl;}
+        else {
+            cout << "wartosc b jest mniejsza" << endl;}
+    }
+  */
+
+    //ZAD.3
+/*
+    float r;
+
+    cout << "podaj wartosc wspolczynnika r ";
+    cin >> r;
+    cout << endl;
+
+    if (0.7 <= r <= 1) {
+        cout << "bardzo silna korelacja dodatnia " << endl;
+    }
+    else if (r >= 0.5) {
+        cout << "silna korelacja dodatnia " << endl;
+    }
+    else if (r >= 0.3) {
+        cout << "umiarkowana korelacja dodatnia " << endl;
+    }
+    else if (r >= 0.2) {
+        cout << "słaba korelacja dodatnia " << endl;
+    }
+    else {
+        cout << "brak korelacji " << endl;
+    }
+
+*/
+    //ZAD.4
+/*
+    float a, b;
+    char znak=0;
+
+    cout << "podaj wartosc a: ";
+    cin >> a;
+    cout << endl;
+
+    cout << "podaj znak: +, -, * lub / ";
+    cin >> znak;
+    cout << endl;
+
+
+    cout << "podaj wartosc b: ";
+    cin >> b;
+    cout << endl;
+
+    switch (znak) {
+    case '+':
+        cout << "wynik: " << a + b << endl;
+        break;
+
+    case '-':
+        cout << "wynik: " << a - b << endl;
+        break;
+
+    case '*':
+        cout << "wynik: " << a * b << endl;
+        break;
+
+    case '/':
+        if (b == 0) {
+            cout << "nie dzielimy przez 0!" << endl;
+        }
+        else {
+            cout << "wynik: " << a / b << endl;
+        }
+        break;
+
+    default :
+        cout << "podano nieprawidlowy znak " << endl;
+
+    }
+*/
+
+//ZAD.5
+/*
+
+while (1) {
+    cout << "prawda" << endl;
+}
+*/
+
+//ZAD.6
+
+float a, b;
+char znak = 0,odp=0;
+
+cout << "podaj wartosc a: ";
+cin >> a;
+cout << endl;
+
+cout << "podaj znak: +, -, * lub / ";
+cin >> znak;
+cout << endl;
+
+
+cout << "podaj wartosc b: ";
+cin >> b;
+cout << endl;
+
+cout << "czy zakonczyc dzialanie ?";
+cin >> odp;
+cout << endl;
+
+switch (znak) {
+case '+':
+    cout << "wynik: " << a + b << endl;
+    break;
+
+case '-':
+    cout << "wynik: " << a - b << endl;
+    break;
+
+case '*':
+    cout << "wynik: " << a * b << endl;
+    break;
+
+case '/':
+    if (b == 0) {
+        cout << "nie dzielimy przez 0!" << endl;
+    }
+    else {
+        cout << "wynik: " << a / b << endl;
+    }
+    break;
+
+default:
+    cout << "podano nieprawidlowy znak " << endl;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
